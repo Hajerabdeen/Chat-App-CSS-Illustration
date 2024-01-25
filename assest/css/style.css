@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+body .side {
+  max-width: 600px;
+  min-width: 325px;
+  height: 775px;
+  background: linear-gradient(#c841ff, #ad3eff, #923afe);
+  border-radius: 0px 0px 300px 300px;
+  position: relative;
+  transform: translateX(-30%);
+}
+body .container-fluid .row .mobile {
+  position: absolute;
+  right: -34%;
+  bottom: 10%;
+  background-color: #f5f3f8;
+  max-width: 270px;
+  min-width: 200px;
+  height: 550px;
+  box-shadow: gray 2px 2px 10px;
+  border-radius: 25px;
+  border: 9px solid white;
+  padding: 0 15px;
+}
+body .container-fluid .row .mobile .row .mobile-top {
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(to right, #9038fc, #ba3fff, #e741ff);
+  border-radius: 20px 20px 10px 10px;
+  box-shadow: #bb3fff 1px 1px 1px;
+}
+body .container-fluid .row .mobile .row .mobile-top .notch {
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  width: 55%;
+  height: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .container-fluid .row .mobile .row .mobile-top .contact {
+  margin-top: 15px;
+}
+body .container-fluid .row .mobile .row .mobile-top .avatar i {
+  margin-top: 25px;
+}
+body .container-fluid .row .mobile .row .mobile-top .avatar img {
+  width: 30px;
+  border-radius: 50%;
+  border: white solid 1px;
+  margin-top: 5px;
+}
+body .container-fluid .row .mobile .row .mobile-top .name h6 {
+  color: white;
+  font-size: 11px;
+  font-weight: 0;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+body .container-fluid .row .mobile .row .mobile-top .name p {
+  color: #d095f1;
+  font-size: 9px;
+  font-weight: 0;
+}
+body .container-fluid .row .mobile .chat {
+  margin-top: 15px;
+}
+body .container-fluid .row .mobile .chatp:last-of-type {
+  margin-top: 0px;
+}
+body .container-fluid .row .mobile .chat p {
+  color: #9b2fac;
+  font-size: 9px;
+  font-weight: 0;
+  margin-bottom: 5px;
+  background-color: #ede4f5;
+  text-align: left;
+  padding: 5px 11px 5px 10px;
+  border-radius: 15px 15px 15px 2px;
+}
+body .container-fluid .row .mobile .dogs {
+  display: flex;
+  margin-left: 80px;
+}
+body .container-fluid .row .mobile .dogs img {
+  padding: 3px;
+  margin-top: 10px;
+  width: 45px;
+  border-radius: 10px;
+}
+body .container-fluid .row .mobile .chat-2 {
+  margin-top: 10px;
+}
+body .container-fluid .row .mobile .chat-2 .col-8 {
+  margin-left: 40px;
+}
+body .container-fluid .row .mobile .chat-2 p {
+  color: #604479;
+  font-size: 9px;
+  font-weight: 0;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+  border-radius: 18px 18px 2px 15px;
+  box-shadow: rgb(209, 209, 209) 1px 1px 1px;
+}
+body .container-fluid .row .mobile .chat-3 .price {
+  background-image: linear-gradient(to left, #9038fc, #ba3fff, #e741ff);
+  border-radius: 18px 25px 25px 2px;
+  display: flex;
+  width: 70%;
+  padding: 5px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+body .container-fluid .row .mobile .chat-3 p {
+  color: #e6bcee;
+  font-size: 9px;
+  font-weight: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+body .container-fluid .row .mobile .chat-3 h6 {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+body .container-fluid .row .mobile .typing-sec {
+  padding: 0px 10px 0px 10px;
+}
+body .container-fluid .row .mobile .typing-sec .typing-part {
+  margin-top: 5px;
+  background-color: white;
+  box-shadow: rgb(209, 209, 209) 2px 2px 3px;
+  border-radius: 25px;
+  padding: 5px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .container-fluid .row .mobile .typing-sec .typing-part p {
+  color: #e0e1e3;
+  font-size: 9px;
+  font-weight: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+body .container-fluid .row .mobile .typing-sec .typing-part i {
+  margin-left: 35px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+body .container-fluid .row .sec-side {
+  padding: 20px;
+  align-self: center;
+  margin-left: 70px;
+}
+body .container-fluid .row .sec-side h1 {
+  color: #3b2951;
+  margin-bottom: 20px;
+}
+body .container-fluid .row .sec-side p {
+  color: #aaa8ad;
+  width: 468px;
+}
+
+@media (max-width: 450px) {
+  .container-fluid .row .side {
+    height: 650px;
+    transform: translateX(-50%);
+  }
+  .container-fluid .row .mobile {
+    top: 20%;
+  }
+  .container-fluid .row .sec-side {
+    text-align: center;
+    margin-left: 0 !important;
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
